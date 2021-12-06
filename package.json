@@ -1,0 +1,13 @@
+{
+  "name": "zstandard",
+  "version": "0.1.0",
+  "main": "index.js",
+  "dependencies": {
+    "bindings": "*",
+    "node-addon-api": "*"
+  },
+  "gypfile": true,
+  "devDependencies": {
+    "@types/node": "^16.11.6"
+  }
+}
