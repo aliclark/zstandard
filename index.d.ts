@@ -10,7 +10,7 @@ export class Compression {
     static readonly recommendedInputBufferSize: number
     static readonly recommendedOutputBufferSize: number
     compress(input: Param, output: Param): number
-    end(input: Param, output: Param): void
+    end(input: Param, output: Param): number
 }
 
 export class Decompression {
